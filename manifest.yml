@@ -1,12 +1,12 @@
 ---
 applications:
-  - name: mysql-test
+  - name: mysql-test-old
     path: build/libs/mysql-test-0.0.1-SNAPSHOT.jar
     buildpacks:
       - java_buildpack_offline
     memory: 1G
     routes:
-      - route: mysql-test.apps.espace.lsews.com
+      - route: mysql-test-old.apps.espace.lsews.com
     services:
       - test-mysql
     env:

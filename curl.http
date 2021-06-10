@@ -1,10 +1,10 @@
-POST https://mysql-test.apps.espace.lsews.com/accounts
+POST https://mysql-test-old.apps.espace.lsews.com/accounts
 Content-Type: application/json
 
 {}
 
 ###
-GET https://mysql-test.apps.espace.lsews.com/accounts
+GET https://mysql-test-old.apps.espace.lsews.com/accounts
 Accept: application/json
 
 ###

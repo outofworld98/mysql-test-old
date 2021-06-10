@@ -1,0 +1,23 @@
+POST https://mysql-test.apps.espace.lsews.com/accounts
+Content-Type: application/json
+
+{}
+
+###
+GET https://mysql-test.apps.espace.lsews.com/accounts
+Accept: application/json
+
+###
+GET http://localhost:8080/accounts
+Accept: application/json
+
+###
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+{}
+
+###
+
+
+

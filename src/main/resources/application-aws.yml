@@ -1,0 +1,9 @@
+management:
+  cloudfoundry:
+    skip-ssl-validation=true:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    health:
+      showdetails: always
